@@ -1,0 +1,19 @@
+{
+  "name": "discord-weather",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "crawl": "bun run src/scripts/crawl-map.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-plugin-dts": "^0.2.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
